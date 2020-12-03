@@ -2,10 +2,10 @@ inp = 0
 def stuff(inp):
     inp = int(input("Do YOU believe in me? Type 1 for yes, 0 for no"))
     if inp == 0:
-      print("\033[0;32;1m Good, because I don't either. \033[0;37;0m")
+      print("\033[0;32;1m I have become Baby wah-wah. \033[0;37;0m")
       stuff(inp)
     elif inp == 1:
-      print("\033[0;31;1m Why? Just Why? \033[0;37;0m")
+      print("\033[0;31;1m Why are you gae for a .py file? \033[0;37;0m")
       stuff(inp)
     else:
       print("\033[0;31;1m Your life is worthless.")
